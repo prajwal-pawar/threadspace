@@ -1,7 +1,5 @@
-import "../styles/App.css";
-
 function App() {
-  return <h1>threadspace</h1>;
+  return <h1 className="text-red-100">threadspace</h1>;
 }
 
 export default App;
