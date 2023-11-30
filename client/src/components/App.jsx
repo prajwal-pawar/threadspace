@@ -1,17 +1,13 @@
 import Header from "./Header";
-import { demo_banner } from "../assets/images/images";
+import BoardHeader from "./BoardHeader";
 
 function App() {
   return (
     <div>
-      {/* Header */}
       <Header />
+      <BoardHeader />
 
-      <div>
-        <img src={demo_banner} alt="banner" className="h-20 w-full bg-cover" />
-      </div>
-
-      <div></div>
+      <div className=""></div>
     </div>
   );
 }
